@@ -1,0 +1,59 @@
+/*.col-sm-8 {
+	background-color: red;
+	height: 1000px!important;
+}
+
+.col-sm-2 {
+	background-color: aquamarine;
+	height: 1000px!important;
+}
+.col-sm-3 {
+	background-color: blue;
+}
+
+.col-sm-6 {
+	background-color: yellow;
+}*/
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #3a3a3a;
+}
+
+.container-fluid {
+	padding-top: 100px!important;
+}
+
+#pizza-form {
+	background-color: #4e4e4e;
+	border-radius: 10px;
+	border: 1px solid white;
+	padding: 30px;
+}
+
+#pizza-form input {
+	float: right;
+	width: 175px;
+}
+
+#pizza-form label {
+	color: white;
+}
+
+#pizza-form button {
+	width: 100%;
+	background-color: black;
+	color: white;
+	border: none;
+	transition: all ease-in-out .2s;
+}
+
+#pizza-form button:hover {
+	background-color: white;
+	color: black;
+}
+
+#pizza-form button:active {
+	background-color: #d0d0d0;
+	color: black;
+}
