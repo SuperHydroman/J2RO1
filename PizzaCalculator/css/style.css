@@ -25,6 +25,7 @@ html, body {
 
 #pizza-form input {
 	float: right;
+	float:left!important;
 	width: 175px;
 }
 
